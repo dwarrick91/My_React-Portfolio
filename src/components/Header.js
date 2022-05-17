@@ -1,11 +1,11 @@
 import React from "react";
 import '../styles/Header.css'
 import NavTabs from "./NavTabs";
-function Header() {
+function Header({currentPage, handlePageChange}) {
     return (
       <header className="header">
         <h1>Home</h1>
-        <NavTabs />
+        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         
       </header>
     );

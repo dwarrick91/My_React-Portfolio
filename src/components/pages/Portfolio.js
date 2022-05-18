@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../styles/Portfolio.css'
 export default function Portfolio({apps}) {
   const cardStyle = {
     
@@ -12,11 +13,7 @@ export default function Portfolio({apps}) {
    
 
   }
-  const containImage = {
-    margin: '20px',
-    width: 'calc(50% - 40px)',
-    position: "relative"
-  }
+  
 
   const gitImage = {
     position: 'absolute',
@@ -27,7 +24,7 @@ export default function Portfolio({apps}) {
     fontSize: '40px'
   }
   console.log(apps);
-  const appList = apps.map(app =>  <div key={app.key} className="card bg-dark text-white col-12 col-md-6" style= {containImage}  >
+  const appList = apps.map(app =>  <div key={app.key} className="card bg-dark text-white col-12 portfolio" >
     <div style={gitImage}><a href={app.git}><i class="bi bi-github"></i></a></div>
   <a href={app.url} style={linkStyle} >
 <img src={require(`../../assets/images/${app.pic}.png`)} className="card-img img-responsive " alt={app.title} style= {cardStyle}></img>

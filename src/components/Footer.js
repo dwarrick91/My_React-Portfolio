@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   const footerStyles = {
-    
+    position: 'fixed',
     background: "#52B7B5"
   }
     return (

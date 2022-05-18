@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/My_React-Portfolio/static/css/main.a7f1eb44.css",
-    "main.js": "/My_React-Portfolio/static/js/main.218a81b5.js",
+    "main.css": "/My_React-Portfolio/static/css/main.d8e4e6c8.css",
+    "main.js": "/My_React-Portfolio/static/js/main.24d922d5.js",
     "static/media/fitnessPal.png": "/My_React-Portfolio/static/media/fitnessPal.1818de5061444abb6ad6.png",
+    "static/media/react-portfolio.png": "/My_React-Portfolio/static/media/react-portfolio.3a8d064c638833ead706.png",
+    "static/media/react-about.png": "/My_React-Portfolio/static/media/react-about.3d29e49a1d55e76fe385.png",
     "static/media/boxOffice.png": "/My_React-Portfolio/static/media/boxOffice.aee9b86d07b8e901b2a1.png",
     "static/media/bootstrap-icons.woff?": "/My_React-Portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
     "static/media/weatherDashboard.png": "/My_React-Portfolio/static/media/weatherDashboard.a550ba948de28593d417.png",
     "static/media/techblog.png": "/My_React-Portfolio/static/media/techblog.10a915e606ad671125f6.png",
     "static/media/bootstrap-icons.woff2?": "/My_React-Portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/react-contact.png": "/My_React-Portfolio/static/media/react-contact.a5e1246757f04c81cff3.png",
     "static/media/noteTaker.png": "/My_React-Portfolio/static/media/noteTaker.2cec69071b4165856200.png",
     "static/media/Linkedin.jpg": "/My_React-Portfolio/static/media/Linkedin.6168a071c1bf7e4367a3.jpg",
     "static/media/password.png": "/My_React-Portfolio/static/media/password.aa25cbf89939def02f6b.png",
     "index.html": "/My_React-Portfolio/index.html",
-    "main.a7f1eb44.css.map": "/My_React-Portfolio/static/css/main.a7f1eb44.css.map",
-    "main.218a81b5.js.map": "/My_React-Portfolio/static/js/main.218a81b5.js.map"
+    "main.d8e4e6c8.css.map": "/My_React-Portfolio/static/css/main.d8e4e6c8.css.map",
+    "main.24d922d5.js.map": "/My_React-Portfolio/static/js/main.24d922d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7f1eb44.css",
-    "static/js/main.218a81b5.js"
+    "static/css/main.d8e4e6c8.css",
+    "static/js/main.24d922d5.js"
   ]
 }

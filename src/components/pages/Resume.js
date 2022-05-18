@@ -11,10 +11,10 @@ export default function Resume() {
         </a>
         <h2 style={{fontSize: 30}}>Proficiencies</h2>
 <ul style={{fontSize: 30}}>
-    <li><i class="bi bi-filetype-html"></i></li>
-    <li><i class="bi bi-filetype-css"></i></li>
-    <li><i class="bi bi-filetype-js"></i></li>
-    <li><i class="bi bi-filetype-jsx"></i></li>
+    <li><i className="bi bi-filetype-html"></i></li>
+    <li><i className="bi bi-filetype-css"></i></li>
+    <li><i className="bi bi-filetype-js"></i></li>
+    <li><i className="bi bi-filetype-jsx"></i></li>
     <li>Node</li>
     <li>Mysql</li>
     <li>MongoDB</li>

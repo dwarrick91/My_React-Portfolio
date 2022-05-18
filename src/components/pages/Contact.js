@@ -55,21 +55,21 @@ export default function Contact() {
       <h1>Contact Me</h1>
     
       <form>
-  <div class="form-group">
-    <label for="exampleFormControlInput1">Name</label>
+  <div className="form-group">
+    <label htmlFor="exampleFormControlInput1">Name</label>
     <input type="text" value={name} onChange={handleInputChange} onBlur={handleBlur} name='name' required className="form-control contact-input" id="exampleFormControlInput1" placeholder="Name" ></input>
   </div>
   
-  <div class="form-group">
-    <label for="exampleFormControlInput2">Email address</label>
+  <div className="form-group">
+    <label htmlFor="exampleFormControlInput2">Email address</label>
     <input type="email" value={email} required name="email" onChange={handleInputChange} onBlur={handleBlur}
     className="form-control contact-input" id="exampleFormControlInput1" placeholder="name@example.com" ></input>
   </div>
-  <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
+  <div className="form-group">
+    <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
     <textarea className="form-control contact-input" id="exampleFormControlTextarea1" rows="8" name="message" value={message} onChange={handleInputChange} onBlur={handleBlur}></textarea>
   </div>
-  <button type="submit" class="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
+  <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
 </form>
 {errMessage && (
   <p style={{color: 'red'}}>{errMessage}</p>

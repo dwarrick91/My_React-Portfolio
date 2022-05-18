@@ -25,7 +25,7 @@ export default function Portfolio({apps}) {
   }
   console.log(apps);
   const appList = apps.map(app =>  <div key={app.key} className="card bg-dark text-white col-12 col-sm-5 portfolio" >
-    <div style={gitImage}><a href={app.git}><i class="bi bi-github"></i></a></div>
+    <div style={gitImage}><a href={app.git}><i className="bi bi-github"></i></a></div>
   <a href={app.url} style={linkStyle} >
 <img src={require(`../../assets/images/${app.pic}.png`)} className="card-img img-responsive " alt={app.title} style= {cardStyle}></img>
 </a>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../styles/Footer.css'
 export default function Footer() {
   const footerStyles = {
     position: "sticky",
@@ -17,13 +17,13 @@ export default function Footer() {
     
         <ul className="nav col-md-4  list-unstyled d-flex" style={{fontSize: "40px"}}>
         <a className="text-muted" href="https://github.com/dwarrick91">
-          <li className="ms-3"><i className="bi bi-github"></i></li>
+          <li className="ms-3"><i className="bi bi-github hoverG"></i></li>
           </a>
           <a className="text-muted"  href="http://linkedin.com/in/david-warrick-424777165">
-          <li className="ms-3"><i className="bi bi-linkedin"></i></li>
+          <li className="ms-3"><i className="bi bi-linkedin hoverL"></i></li>
           </a>
           <a className="text-muted" href="https://twitter.com/DavidWa15648959">
-          <li className="ms-3"><i className="bi bi-twitter"></i></li>
+          <li className="ms-3"><i className="bi bi-twitter hoverT"></i></li>
           </a>
         </ul>
       </footer>

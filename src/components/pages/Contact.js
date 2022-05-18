@@ -57,17 +57,17 @@ export default function Contact() {
       <form>
   <div className="form-group">
     <label htmlFor="exampleFormControlInput1">Name</label>
-    <input type="text" value={name} onChange={handleInputChange} onBlur={handleBlur} name='name' required className="form-control contact-input" id="exampleFormControlInput1" placeholder="Name" ></input>
+    <input type="text" value={name} onChange={handleInputChange} onBlur={handleBlur} name='name' required className="form-control contactInput" id="exampleFormControlInput1" placeholder="Name" ></input>
   </div>
   
   <div className="form-group">
     <label htmlFor="exampleFormControlInput2">Email address</label>
     <input type="email" value={email} required name="email" onChange={handleInputChange} onBlur={handleBlur}
-    className="form-control contact-input" id="exampleFormControlInput1" placeholder="name@example.com" ></input>
+    className="form-control contactInput" id="exampleFormControlInput1" placeholder="name@example.com" ></input>
   </div>
   <div className="form-group">
     <label htmlFor="exampleFormControlTextarea1">Example textarea</label>
-    <textarea className="form-control contact-input" id="exampleFormControlTextarea1" rows="8" name="message" value={message} onChange={handleInputChange} onBlur={handleBlur}></textarea>
+    <textarea className="form-control contactInput" id="exampleFormControlTextarea1" rows="8" name="message" value={message} onChange={handleInputChange} onBlur={handleBlur}></textarea>
   </div>
   <button type="submit" className="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
 </form>

@@ -1,57 +1,42 @@
-import React from 'react';
-import '../styles/NavTabs.css'
-// TODO: Add a comment explaining how we are able to extract the key value pairs from props
+import React from "react";
+import "../styles/NavTabs.css";
 
 function NavTabs({ currentPage, handlePageChange }) {
-
- 
   return (
-    <ul className="nav justify-content-end " >
+    <ul className="nav justify-content-end ">
       <li className="nav-item">
         <a
-        className="nav-link"
+          className="nav-link"
           href="#about"
-          onClick={() => handlePageChange('About')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-         
+          onClick={() => handlePageChange("About")}
         >
           About
         </a>
       </li>
       <li className="nav-item">
         <a
-        className="nav-link"
+          className="nav-link"
           href="#portfolio"
-          onClick={() => handlePageChange('Portfolio')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-         
+          onClick={() => handlePageChange("Portfolio")}
         >
           Portfolio
         </a>
       </li>
       <li className="nav-item">
         <a
-        className="nav-link"
+          className="nav-link"
           href="#contact"
-          //  TODO: Add a comment explaining what this logic is doing
-
-          onClick={() => handlePageChange('Contact')}
-          
-         
+          onClick={() => handlePageChange("Contact")}
         >
           Contact
         </a>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" >
         <a
-        className="nav-link"
+          className="nav-link"
           href="#resume"
-          onClick={() => handlePageChange('Resume')}
-          //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
-
-          
+          onClick={() => handlePageChange("Resume" )}
+         
         >
           Resume
         </a>

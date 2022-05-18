@@ -17,7 +17,7 @@ export default function PortfolioContainer() {
       return <Portfolio apps={apps} />;
     }
     if (currentPage === "Resume") {
-      return <Resume />;
+      return <Resume  />;
     }
     return <Contact />;
   };

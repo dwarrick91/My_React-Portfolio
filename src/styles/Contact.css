@@ -1,9 +1,9 @@
-.contact-input {
+.contactInput {
     width: 50%
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     
-    .contact-input{
+    .contactInput{
       width: 100%
     }
-  } */
+  }

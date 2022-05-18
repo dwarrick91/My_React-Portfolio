@@ -18,11 +18,11 @@ export default function Portfolio({apps}) {
   const gitImage = {
     position: 'absolute',
     top: "20px",
-    right: '30px',
-    backgroundColor: "black",
-    color: 'black',
-    fontSize: '40px'
+    right: '50px',
+    fontSize: '40px',
+    hover: 'black'
   }
+  
   console.log(apps);
   const appList = apps.map(app =>  <div key={app.key} className="card bg-dark text-white col-12 col-sm-5 col-md-5 portfolio" >
     <div style={gitImage}><a href={app.git}><i className="bi bi-github"></i></a></div>

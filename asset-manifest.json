@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/My_React-Portfolio/static/css/main.25d5cae9.css",
+    "main.js": "/My_React-Portfolio/static/js/main.d26ef4c6.js",
+    "static/media/fitnessPal.png": "/My_React-Portfolio/static/media/fitnessPal.1818de5061444abb6ad6.png",
+    "static/media/boxOffice.png": "/My_React-Portfolio/static/media/boxOffice.aee9b86d07b8e901b2a1.png",
+    "static/media/bootstrap-icons.woff?": "/My_React-Portfolio/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff",
+    "static/media/weatherDashboard.png": "/My_React-Portfolio/static/media/weatherDashboard.a550ba948de28593d417.png",
+    "static/media/techblog.png": "/My_React-Portfolio/static/media/techblog.10a915e606ad671125f6.png",
+    "static/media/bootstrap-icons.woff2?": "/My_React-Portfolio/static/media/bootstrap-icons.f2539a501be3a673de05.woff2",
+    "static/media/noteTaker.png": "/My_React-Portfolio/static/media/noteTaker.2cec69071b4165856200.png",
+    "static/media/Linkedin.jpg": "/My_React-Portfolio/static/media/Linkedin.6168a071c1bf7e4367a3.jpg",
+    "static/media/password.png": "/My_React-Portfolio/static/media/password.aa25cbf89939def02f6b.png",
+    "index.html": "/My_React-Portfolio/index.html",
+    "main.25d5cae9.css.map": "/My_React-Portfolio/static/css/main.25d5cae9.css.map",
+    "main.d26ef4c6.js.map": "/My_React-Portfolio/static/js/main.d26ef4c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25d5cae9.css",
+    "static/js/main.d26ef4c6.js"
+  ]
+}

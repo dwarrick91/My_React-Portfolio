@@ -1,17 +1,26 @@
 import React from 'react';
 
 export default function About() {
+  const aboutStyle = {
+    width: '40%'
+    }
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra fin est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div >
+      <h1>About Me</h1>
+      <p style={aboutStyle} className='col-12 col-md-6'>
+      Hello my name is David Warrick. I have a wife and three beautiful children. I
+            most recently made a change to become a web-developer, which better suits my interests. I am currently
+            studying
+            Full Stack Web Development, through the University of Pennsylvania. Before I started this new journey I
+            obtained
+            bachelor's degree from Shippensburg University in Accounting, which
+            I obtained in 2013. comprised on this webpage are links to some of my best work, as well as ways to contact
+            me on
+            the bottom of the
+            page.
       </p>
+      <img src={require('../../assets/images/Linkedin.jpg')} alt="David Warrick" ></img>
     </div>
+    
   );
 }

@@ -4,7 +4,7 @@ import NavTabs from "./NavTabs";
 function Header({currentPage, handlePageChange}) {
     return (
       <header className="header">
-        <h1>Home</h1>
+        <h1>David Warrick</h1>
         <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
         
       </header>

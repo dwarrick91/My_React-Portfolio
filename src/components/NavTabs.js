@@ -44,7 +44,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       <li className="nav-item">
         <a
         className="nav-link"
-          href="https://drive.google.com/file/d/13UCva8mwTzxD8bFvZCHREAAOSz7qzq5l/view?usp=sharinge"
+          href="#resume"
           onClick={() => handlePageChange('Resume')}
           //*  TODO: BONUS: Add a comment explaining what kind of operator this is and what it is checking for
 

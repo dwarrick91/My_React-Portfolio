@@ -20,14 +20,15 @@ export default function Portfolio({apps}) {
 
   const gitImage = {
     position: 'absolute',
-    top: "40px",
-    right: '40px',
+    top: "20px",
+    right: '20px',
     backgroundColor: "black",
-    color: 'white'
+    color: 'black',
+    fontSize: '40px'
   }
   console.log(apps);
   const appList = apps.map(app =>  <div key={app.key} className="card bg-dark text-white col-12 col-md-6" style= {containImage}  >
-    <div style={gitImage}><a href='#'>Git</a></div>
+    <div style={gitImage}><a href={app.git}><i class="bi bi-github"></i></a></div>
   <a href={app.url} style={linkStyle} >
 <img src={require(`../../assets/images/${app.pic}.png`)} className="card-img img-responsive " alt={app.title} style= {cardStyle}></img>
 </a>

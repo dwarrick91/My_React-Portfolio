@@ -36,6 +36,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           //  TODO: Add a comment explaining what this logic is doing
 
           onClick={() => handlePageChange('Contact')}
+          
          
         >
           Contact

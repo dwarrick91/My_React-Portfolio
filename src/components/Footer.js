@@ -15,13 +15,13 @@ export default function Footer() {
     
         <ul class="nav col-md-4  list-unstyled d-flex">
         <a class="text-muted" href="https://github.com/dwarrick91">
-          <li class="ms-3">GitHub</li>
+          <li class="ms-3"><i class="bi bi-github"></i></li>
           </a>
           <a class="text-muted"  href="http://linkedin.com/in/david-warrick-424777165">
-          <li class="ms-3">Linkedin</li>
+          <li class="ms-3"><i class="bi bi-linkedin"></i></li>
           </a>
           <a class="text-muted" href="https://twitter.com/DavidWa15648959">
-          <li class="ms-3">Twitter</li>
+          <li class="ms-3"><i class="bi bi-twitter"></i></li>
           </a>
         </ul>
       </footer>

@@ -1,0 +1,9 @@
+.contact-input {
+    width: 50%
+}
+@media screen and (max-width: 768px) {
+    
+    .contact-input{
+      width: 100%
+    }
+  }

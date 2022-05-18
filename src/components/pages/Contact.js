@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
+import '../../styles/Contact.css'
 
-const formStyle = {
-width: '50%'
-}
 export default function Contact() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -59,17 +57,17 @@ export default function Contact() {
       <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Name</label>
-    <input type="text" value={name} onChange={handleInputChange} onBlur={handleBlur} name='name' required class="form-control" id="exampleFormControlInput1" placeholder="Name" style={formStyle}></input>
+    <input type="text" value={name} onChange={handleInputChange} onBlur={handleBlur} name='name' required className="form-control contact-input" id="exampleFormControlInput1" placeholder="Name" ></input>
   </div>
   
   <div class="form-group">
     <label for="exampleFormControlInput2">Email address</label>
     <input type="email" value={email} required name="email" onChange={handleInputChange} onBlur={handleBlur}
-    class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style={formStyle} ></input>
+    className="form-control contact-input" id="exampleFormControlInput1" placeholder="name@example.com" ></input>
   </div>
   <div class="form-group">
     <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8" style={formStyle} name="message" value={message} onChange={handleInputChange} onBlur={handleBlur}></textarea>
+    <textarea className="form-control contact-input" id="exampleFormControlTextarea1" rows="8" name="message" value={message} onChange={handleInputChange} onBlur={handleBlur}></textarea>
   </div>
   <button type="submit" class="btn btn-primary" onClick={handleFormSubmit}>Submit</button>
 </form>

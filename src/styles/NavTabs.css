@@ -1,0 +1,25 @@
+.nav {
+    font-size: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .nav{
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    
+    .nav{
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    
+    .nav{
+      font-size: 14px;
+    }
+  }

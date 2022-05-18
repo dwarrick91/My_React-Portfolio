@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Footer() {
   const footerStyles = {
-    position: 'fixed',
-    background: "#52B7B5"
+    position: "sticky",
+    background: "#52B7B5",
+    width: '100%'
   }
     return (
         <footer class="d-flex flex-wrap  align-items-center py-3 my-4 border-top" style={footerStyles}>

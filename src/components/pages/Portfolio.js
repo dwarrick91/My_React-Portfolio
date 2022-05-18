@@ -18,7 +18,7 @@ export default function Portfolio({apps}) {
   const gitImage = {
     position: 'absolute',
     top: "20px",
-    right: '20px',
+    right: '30px',
     backgroundColor: "black",
     color: 'black',
     fontSize: '40px'

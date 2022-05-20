@@ -16,9 +16,9 @@ const apps = [
   {
     key: 3,
     title: "Box Office Blight",
-    url: "https://dwarrick91.github.io/Pandemic-Blight/",
+    url: "https://dwarrick91.github.io/Box-Office-Blight/",
     pic: "boxOffice",
-    git: "https://github.com/dwarrick91/Pandemic-Blight"
+    git: "https://github.com/dwarrick91/Box-Office-Blight"
   },
   {
     key: 4,

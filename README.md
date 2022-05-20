@@ -27,9 +27,9 @@ SO THAT I can assess whether they're a good candidate for an open position
 - In portfolio click on any of the projects and be taken to the corresponding url and github page
 - In Footer click on links to get to my personal GitHub, Linkedin and Twitter pages
 
-![React About Page](/My_React-Portfolio/src/assets/images/react-about.png)
-![React Contact Page](/My_React-Portfolio/src/assets/images/react-contact.png)
-![React Portfolio Page](/My_React-Portfolio/src/assets/images/react-portfolio.png)
+![React About Page](./src/assets/images/react-about.png)
+![React Contact Page](./src/assets/images/react-contact.png)
+![React Portfolio Page](./src/assets/images/react-portfolio.png)
 
 ## Credits
 
